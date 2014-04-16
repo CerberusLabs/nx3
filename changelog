@@ -1,0 +1,60 @@
+<<< NX3 Change Log
+
+04.15.2014 - Version 0.0.8
+	- Added dynamic bot command support
+	- Added dynamic bot module support
+	- Cleaned up and optimized logging
+	- Cleaned up and optimized MySQL
+	- Added bot->load function for handling comparisons based on any bot-related variable
+	- Added a few sample commands for testing
+	- Added support for hardcoded version commands
+	- Added config option for commands with variable parameters
+	- Fixed stream->function to be in the right places (cleaned up)
+	- Added config options for undefined 'oper, registered, required modes' (on the todo list!)
+	- Added listen support to allow connections to attach to NX (similar to eggdrop botnets)... this may be removed
+
+04.06.2014 - Version 0.0.7
+	- Added Nefarious 2.x protocol support
+
+03.29.2014 - Version 0.0.6
+	- Created extended logging system
+	- Added 'opself' ability for each drone
+	- Added individual modes to set on auto-connect for each bot
+	- Added command triggers for each bot
+	- Added hardcoded version on connect
+	- Added 'primary' flag to drone config
+	- Changed default usermode masks
+	- Changed autojoin to support multiple channels
+	- Added SQL support for user connection handling
+	- Added CTCP versions
+	- Fixed MySQL to include nx3 in the db (useful for server and bot listing)
+
+03.28.2014 - Version 0.0.5
+	- Rebuilt the on connect function
+	- Added autojoin channels
+	- Added Q:Lines on connect
+	- Added KILL reconnecting
+	- Added KICK rejoining
+
+03.26.2014 - Version 0.0.4
+	- Added bots (now connecting)
+	- Extended the debug console ouput
+	- Added quick functions for SQL
+
+03.24.2014 - Version 0.0.3
+	- Added dynamic module support (overrides default values)
+	- Added quick functions for data sending
+
+03.23.2013 - Version 0.0.2
+	- Added Nefarious 1.x protocol support
+	- Added dynamic bot support
+	- Added MySQL support
+	- Created dynamic server lists via MySQL
+	- Added password censoring
+
+03.22.2013 - Version 0.0.1
+	- Added UnrealIRCD 3.2.x protocol support
+	- Added seamless dynamic IRCd support
+
+03.21.2013 - Version 0.0.0
+	- Created structure and base code and design
