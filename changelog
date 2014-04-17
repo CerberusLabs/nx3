@@ -1,5 +1,9 @@
 <<< NX3 Change Log
 
+04.16.2014 - Version 0.0.9
+	- Changed error class to response class
+	- Updated response class with errors and standardized replies
+
 04.15.2014 - Version 0.0.8
 	- Added dynamic bot command support
 	- Added dynamic bot module support
