@@ -8,7 +8,7 @@
 	- Added 'placeholders' for current unused/unadded functions
 	- Fixed database duplicate entry errors
 	- Added channels database and partial channel handling
-	- Fixed remote server server numerics
+	- Fixed remote server numerics
 	- Fixed unreal's "NS" protctl handling for server numerics (Special thanks to Jobe for the patch)
 
 04.16.2014 - Version 0.0.9
