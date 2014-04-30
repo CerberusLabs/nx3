@@ -1,5 +1,16 @@
 <<< NX3 Change Log
 
+04.30.2014 - Version 0.0.10
+	- Redesigned configuration file
+	- Changed IRCd protocol file format to use functions and keep things cleaner
+	- Fixed minor display issue with remote server descriptions
+	- Migrated 'unrealircd' protocol as 'unreal32'
+	- Added 'placeholders' for current unused/unadded functions
+	- Fixed database duplicate entry errors
+	- Added channels database and partial channel handling
+	- Fixed remote server server numerics
+	- Fixed unreal's "NS" protctl handling for server numerics (Special thanks to Jobe for the patch)
+
 04.16.2014 - Version 0.0.9
 	- Changed error class to response class
 	- Updated response class with errors and standardized replies
